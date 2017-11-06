@@ -9,7 +9,9 @@ Using Keras and Tensorflow LSTM to use bus ping sequences from Wellington, New Z
 Install Keras from [here](https://keras.io/) and Tensorflow from [here](https://www.tensorflow.org/versions/r0.12/get_started/os_setup). 
 
 ##Usage
-The below graph shows the LSTM's ability to predict bearing changes at one time step ahead.  The blue line shows the bus's actual bearing changes.  The orange shows predicted bearing changes.
+The below graph shows the LSTM's ability to predict bearing changes at one time step ahead.  The blue line shows the bus's actual bearing changes.  The orange shows predicted bearing changes.  The model is trained on ~600 bus pings for the 83 bus.  If the model were retrained over a larger dataset, we would expect that our ability to predict bearing, speed, position, and delay would increase substantially.  
+
+There is also strong potential for predicting the movements of things like wildlife migration, in order to reduce hazards associated with road crossings or shark attacks.
 
 ![Alt text](/accuracy-graph.png?raw=true "Prediction Accuracy - One time step ahead")
 
