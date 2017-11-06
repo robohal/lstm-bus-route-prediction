@@ -1,5 +1,5 @@
 # Predicting metlink bus route data from historical ping data
-Using Keras and Tensorflow LSTM to use bus ping sequences from Wellington, New Zealand to predict bearing, location, and delays
+Using Keras and Tensorflow LSTM to use bus ping sequences from Wellington, New Zealand to predict bearing, location, and delays.  This method has potential to be much more accurate in terms of arrival prediction than existing methods by incorporating historical data for delays and traffic.
 
 ##Dependencies
 
